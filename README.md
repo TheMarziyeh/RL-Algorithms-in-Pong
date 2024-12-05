@@ -92,12 +92,12 @@ from pyvirtualdisplay import Display
 virtual_display = Display(visible=0, size=(1400, 900))
 virtual_display.start()</code></pre>
 </div>
-Before running the training code, you have to create a hyperparameter config file or you can use the default hyperparameters defined by our source.<br>
+Before running the training code, We have to create a hyperparameter config file or we can use the default hyperparameters defined by our source.<br>
 <div><button onclick="copyToClipboard('codeBlock1')"></button><pre id="codeBlock1"><code>python -m rl_zoo3.train --algo (Algorithm name)  --env PongNoFrameskip-v4</code></pre>
 </div>
 
 
-and now for evaluating you would have to run the following code:
+and now for evaluating we would have to run the following code:
 
 <div><button onclick="copyToClipboard('codeBlock1')"></button><pre id="codeBlock1"><code>python -m rl_zoo3.enjoy  --algo (Algorithm name) --env PongNoFrameskip-v4  --no-render  --n-timesteps (number of timesteps) --folder logs/</code></pre>
 </div>
@@ -108,6 +108,6 @@ and now for evaluating you would have to run the following code:
 ### CONTACT US
 
 If you have any questions regarding this project please feel free to contact us through email or Linkedin! We will be happy to help :) <br>
-[Amirhossein](https://www.linkedin.com/in/amirhosseinkarimi24/): akari9@unh.newhaven.edu<br>
-[Mary](https://www.linkedin.com/in/marynarouei/): mnaro4@unh.newhaven.edu
+*[Amirhossein](https://www.linkedin.com/in/amirhosseinkarimi24/): akari9@unh.newhaven.edu<br>*
+*[Mary](https://www.linkedin.com/in/marynarouei/): mnaro4@unh.newhaven.edu*
 
