@@ -105,6 +105,16 @@ and now for evaluating we would have to run the following code:
 
 ### CONTRIBUTING
 
+If you'd like to contribute to Project Title, here are some guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Write tests to cover your changes.
+4. Run the tests to ensure they pass.
+5. Commit your changes.
+6. Push your changes to your forked repository.
+7. Submit a pull request.
+
 ### CONTACT US
 
 If you have any questions regarding this project please feel free to contact us through email or Linkedin! We will be happy to help :) <br>
