@@ -13,7 +13,7 @@ Team members: [Amirhossein Karimi](https://www.linkedin.com/in/amirhosseinkarimi
 - [INSTALATION](#instalation)
 - [USAGE](#usage)
 - [CONTRIBUTING](#contributing)
-
+- [CONTACT US](#contact-us)
 
 ### INTRODUCTION TO PONG GAME
 
@@ -104,3 +104,10 @@ and now for evaluating you would have to run the following code:
 
 
 ### CONTRIBUTING
+
+### CONTACT US
+
+If you have any questions regarding this project please feel free to contact us through email or Linkedin! We will be happy to help :) <br>
+[Amirhossein](https://www.linkedin.com/in/amirhosseinkarimi24/): akari9@unh.newhaven.edu<br>
+[Mary](https://www.linkedin.com/in/marynarouei/): mnaro4@unh.newhaven.edu
+
