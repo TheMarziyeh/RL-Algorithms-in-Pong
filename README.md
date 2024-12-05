@@ -48,18 +48,18 @@ The following algorithms have been selected from the available developed methods
 These algorithms will be evaluated in the Pong environment utilizing the rl-baselines3-zoo repository. 
 The primary tool used for this project is Jupyter Notebook.
 The project code incorporates the following libraries: 
-gym, stable-baselines3, box2d-py, pybullet_envs_gymnasium, cloudpickle, plotly, panda-gym, wandb, moviepy, pyvirtualdisplay, pandas, swig, cmake, ffmpeg.
+`gym`, `stable-baselines3`, `box2d-py`, `pybullet_envs_gymnasium`, `cloudpickle`, `plotly`, `panda-gym`, `wandb, moviepy`, `pyvirtualdisplay`, `pandas`, `swig`, `cmake`, `ffmpeg`.
 
 ### DELIVERABELS
 
-Step-by-Step implementation instruction for training and evaluating an RL agent in pong environment using our algorithms using rl- baselines3-zoo repository.
+Step-by-Step implementation instruction for training and evaluating an RL agent in pong environment using our algorithms using rl-baselines3-zoo repository.
 - The hyperparameter files of each algorithm
 - Final diagrams and comparisons
 - A YouTube video with the description of the analysis of the diagrams and the code.
 
 ### EVALUATION METHODOLOGY
 
- After obtaining the results in a CSV file, we will utilize the Matplotlib to visualize the data by plotting reward-steps diagrams for each algorithm under investigation. By comparing these diagrams, we will get the following performance metrics:
+ After obtaining the results in a CSV file, we will utilize the `Matplotlib` to visualize the data by plotting reward-steps diagrams for each algorithm under investigation. By comparing these diagrams, we will get the following performance metrics:
 - Average Reward
 - Stability
 - Final Performance
@@ -67,7 +67,7 @@ Step-by-Step implementation instruction for training and evaluating an RL agent 
 
 ### PREREQUISITES
 
-- Python (>=3.8)
+- `Python (>=3.8)`
 - You can run this Notebook on Google Colab or your local GPUs. If you are using Google Colab, change the runtime to T4 GPU.
 
 ### INSTALATION
