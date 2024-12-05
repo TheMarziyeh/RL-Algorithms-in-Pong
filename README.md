@@ -77,26 +77,34 @@ Step-by-Step implementation instruction for training and evaluating an RL agent 
 To install Project Title, follow these steps:
 1. Clone the repository and instal packages:<br>
 
-```pip install git+https://github.com/DLR-RM/rl-baselines3-zoo```
-
+<pre>
+pip install git+https://github.com/DLR-RM/rl-baselines3-zoo
+</pre>
 2. install aditional packages:<br>
-  
-   ```apt-get install swig cmake ffmpeg pip install gymnasium[atari] pip install gymnasium[accept-rom-license] apt install python-opengl apt install ffmpeg apt install xvfb pip3 install pyvirtualdisplay```
-   
 
+<pre>
+apt-get install swig cmake ffmpeg<br>pip install gymnasium[atari]<br>pip install gymnasium[accept-rom-license]<br>apt install python-opengl<br>apt install ffmpeg<br>apt install xvfb<br>pip3 install pyvirtualdisplay
+</pre>
 
 ### USAGE
 
- We need to have a virtual screen to be able to render the environment: ```# Virtual display
+We need to have a virtual screen to be able to render the environment: 
+<pre>
+# Virtual display
 from pyvirtualdisplay import Display
 virtual_display = Display(visible=0, size=(1400, 900))
-virtual_display.start()```
+virtual_display.start()
+</pre>
 
 Before running the training code, you have to create a hyperparameter config file or you can use the default hyperparameters defined by our source.<br>
-```python -m rl_zoo3.train --algo (Algorithm name)  --env PongNoFrameskip-v4```
+<pre>
+python -m rl_zoo3.train --algo (Algorithm name)  --env PongNoFrameskip-v4
+</pre>
 
 and now for evaluating you would have to run the following code:
-```python -m rl_zoo3.enjoy  --algo (Algorithm name) --env PongNoFrameskip-v4  --no-render  --n-timesteps (number of timesteps) --folder logs/```
+<pre>
+python -m rl_zoo3.enjoy  --algo (Algorithm name) --env PongNoFrameskip-v4  --no-render  --n-timesteps (number of timesteps) --folder logs/
+</pre>
 
 
 
