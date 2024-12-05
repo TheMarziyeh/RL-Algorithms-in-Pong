@@ -77,61 +77,36 @@ Step-by-Step implementation instruction for training and evaluating an RL agent 
 To install Project Title, follow these steps:
 1. Clone the repository and instal packages:<br>
 
-<div>
-  <button onclick="copyToClipboard('codeBlock1')"></button>
-  <pre id="codeBlock1">
-<code>
-pip install git+https://github.com/DLR-RM/rl-baselines3-zoo
-</code>
-  </pre>
+<div><button onclick="copyToClipboard('codeBlock1')"></button><pre id="codeBlock1"><code>
+pip install git+https://github.com/DLR-RM/rl-baselines3-zoo</code></pre>
 </div>
 
 2. install aditional packages:<br>
 
 
-<div>
-  <button onclick="copyToClipboard('codeBlock1')"></button>
-  <pre id="codeBlock1">
-<code>
-apt-get install swig cmake ffmpeg<br>pip install gymnasium[atari]<br>pip install gymnasium[accept-rom-license]<br>apt install python-opengl<br>apt install ffmpeg<br>apt install xvfb<br>pip3 install pyvirtualdisplay
-</code>
-  </pre>
+<div><button onclick="copyToClipboard('codeBlock1')"></button><pre id="codeBlock1"><code>
+apt-get install swig cmake ffmpeg<br>pip install gymnasium[atari]<br>pip install gymnasium[accept-rom-license]<br>apt install python-opengl<br>apt install ffmpeg<br>apt install xvfb<br>pip3 install pyvirtualdisplay</code></pre>
 </div>
 
 ### USAGE
 
 We need to have a virtual screen to be able to render the environment: 
-<div>
-  <button onclick="copyToClipboard('codeBlock1')"></button>
-  <pre id="codeBlock1">
-<code>
+<div><button onclick="copyToClipboard('codeBlock1')"></button><pre id="codeBlock1"><code>
 # Virtual display
 from pyvirtualdisplay import Display
 virtual_display = Display(visible=0, size=(1400, 900))
-virtual_display.start()
-</code>
-  </pre>
+virtual_display.start()</code></pre>
 </div>
 Before running the training code, you have to create a hyperparameter config file or you can use the default hyperparameters defined by our source.<br>
-<div>
-  <button onclick="copyToClipboard('codeBlock1')"></button>
-  <pre id="codeBlock1">
-<code>
-python -m rl_zoo3.train --algo (Algorithm name)  --env PongNoFrameskip-v4
-</code>
-  </pre>
+<div><button onclick="copyToClipboard('codeBlock1')"></button><pre id="codeBlock1"><code>
+python -m rl_zoo3.train --algo (Algorithm name)  --env PongNoFrameskip-v4</code></pre>
 </div>
 
 
 and now for evaluating you would have to run the following code:
 
-<div>
-  <button onclick="copyToClipboard('codeBlock1')"></button>
-  <pre id="codeBlock1">
-<code>
-python -m rl_zoo3.enjoy  --algo (Algorithm name) --env PongNoFrameskip-v4  --no-render  --n-timesteps (number of timesteps) --folder logs/
-</code>
-  </pre>
+<div><button onclick="copyToClipboard('codeBlock1')"></button><pre id="codeBlock1"><code>
+python -m rl_zoo3.enjoy  --algo (Algorithm name) --env PongNoFrameskip-v4  --no-render  --n-timesteps (number of timesteps) --folder logs/</code></pre>
 </div>
 
 
