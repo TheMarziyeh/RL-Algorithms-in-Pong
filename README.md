@@ -105,7 +105,7 @@ and now for evaluating we would have to run the following code:
 
 ### CONTRIBUTING
 
-If you'd like to contribute to Project Title, here are some guidelines:
+As mentioned before this is a final project for Introduction to Artificial intelligence course done in University of New Haven, **Fall 2024**. So any updates, enhancement or contribution is greatly appriciated! If you'd like to contribute to our project, here are some guidelines:
 
 1. Fork the repository.
 2. Create a new branch for your changes.
