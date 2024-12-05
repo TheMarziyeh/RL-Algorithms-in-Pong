@@ -6,11 +6,16 @@ University Of New Haven
 Fall 2024  
 
 ## TABLE OF CONTENTS
-- [Introduction to Pong Game](#introduction-to-pong-game)
-- [Statement of Project Objectives](#statement-of-project-objectives)
-- [Approach](#approach)
+- [INTRODUCTION TO PONG GAME](#introduction-to-pong-game)
+- [STATEMENT OF PROJECT OBJECTIVES](#statement-of-project-objectives)
+- [APPROACH](#approach)
 - [DELIVERABELS](#deliverabels)
 - [EVALUATION METHODOLOGY](#evaluation-methodology)
+- [PREREQUISITES](#prerequisites)
+- [INSTALATION](#instalation)
+- [USAGE](#usage)
+- [CONTRIBUTING](#contributing)
+
 
 ### INTRODUCTION TO PONG GAME
 
@@ -61,4 +66,23 @@ Step-by-Step implementation instruction for training and evaluating an RL agent 
 - Stability
 - Final Performance
 - Sample Efficiency
-  
+
+### PREREQUISITES
+
+- Python (>=3.8)
+- You can run this Notebook on Google Colab or your local GPUs. If you are using Google Colab, change the runtime to T4 GPU.
+
+### INSTALATION
+
+To install Project Title, follow these steps:
+1. Clone the repository and instal packages:<br> ```pip install git+https://github.com/DLR-RM/rl-baselines3-zoo```
+2. install aditional packages:<br> ```apt-get install swig cmake ffmpeg pip install gymnasium[atari] pip install gymnasium[accept-rom-license] apt install python-opengl apt install ffmpeg apt install xvfb pip3 install pyvirtualdisplay```
+3. We need to have a virtual screen to be able to render the environment: ```# Virtual display
+from pyvirtualdisplay import Display
+virtual_display = Display(visible=0, size=(1400, 900))
+virtual_display.start()```
+
+
+### USAGE
+
+### CONTRIBUTING
