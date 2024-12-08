@@ -41,8 +41,8 @@ In the field of deep reinforcement learning, numerous algorithms have been devel
 
 The following algorithms have been selected from the available developed methods for this study:
 
-- Proximal Policy Optimization (PPO)
-- Deep Q-Network (DQN)
+- Proximal Policy Optimization (PPO-Clip)
+- Deep Q-Network (Vanilla-DQN)
 - Advantage Actor-Critic (A2C)<br>
 
 These algorithms will be evaluated in the Pong environment utilizing the rl-baselines3-zoo repository. 
