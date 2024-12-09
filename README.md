@@ -100,6 +100,11 @@ To record a video of your best saved model's performance, you can use this code:
 <div><button onclick="copyToClipboard('codeBlock1')"></button><pre id="codeBlock1"><code>python -m rl_zoo3.record_video  --algo (Algorithm name) --env PongNoFrameskip-v4  --load-best  --n-timesteps (number of timesteps)  --folder logs/</code></pre>
 </div>
 
+<div align="center">  
+
+https://github.com/user-attachments/assets/9e0e6b6c-5f07-42e0-b221-fb04e2c767de
+
+</div>
 
 ### CONTRIBUTING
 
