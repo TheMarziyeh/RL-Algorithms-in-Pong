@@ -99,7 +99,7 @@ For evaluating your trained agent, you would have to run the following code:
 To record a video of your best saved model's performance, you can use this code:
 <div><button onclick="copyToClipboard('codeBlock1')"></button><pre id="codeBlock1"><code>python -m rl_zoo3.record_video  --algo (Algorithm name) --env PongNoFrameskip-v4  --load-best  --n-timesteps (number of timesteps)  --folder logs/</code></pre>
 </div>
-For instance this is a video of the best performance video:<br>
+For instance this is a video of an agent that is trained by PPO algorithm, playing Pong for 1000 time steps:<br>
 <br>
 
 <div align="center">  
